@@ -17,5 +17,6 @@ function setup() {
 
 function draw() {
   background(0)
+  imageMode("center")
   image(fullcolor,windowWidth/2,windowHeight/2,w,h)
 }
