@@ -22,22 +22,8 @@ function draw() {
   
   if(mouseX > 475 && mouseY > 375 && mouseX < 575 && mouseY < 475){
     image(foodcolor,windowWidth/2,windowHeight/2,w,h)
-      mousePressed(){
+  }
+  if(mouseX > 475 && mouseY > 375 && mouseX < 575 && mouseY < 475 && mouseIsPressed){
       image(foodgreen,windowWidth/2,windowHeight/2,w,h)
+      }
     }
-  }
-  
-  if(mouseX > 575 && mouseY > 175 && mouseY < 725 && mouseY < 475){
-    image(servercolor,windowWidth/2,windowHeight/2,w,h)
-      mousePressed(){
-      image(servergreen,windowWidth/2,windowHeight/2,w,h)
-    }
-  }
-  
-  if(mouseX > 575 && mouseY > 175 && mouseX < 725 && mouseY < 475){
-    image(servercolor,windowWidth/2,windowHeight/2,w,h)
-      mousePressed(){
-      image(servergreen,windowWidth/2,windowHeight/2,w,h)
-    }
-  }
-}
