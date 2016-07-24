@@ -13,6 +13,7 @@ var h=windowHeight*0.8
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
+  imageMode(center)
 }
 
 function draw() {
