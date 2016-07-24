@@ -2,13 +2,16 @@ function preload(){
  fullcolor=loadImage("assets/fullcolor.jpg")
  vancolor=loadImage("assets/vancolor.jpg")
  vangreen=loadImage("assets/vangreen.jpg")
+ vanprice=loadImage("assets/vanprice.png")
+ vanverbage=loadImage("assets/vanverbage.png")
  servercolor=loadImage("assets/servercolor.jpg")
  servergreen=loadImage("assets/servergreen.jpg")
+ serverprice=loadImage("assets/serverprice.png")
+ serververbage=loadImage("assets/serververbage.png")
  foodcolor=loadImage("assets/foodcolor.jpg")
  foodgreen=loadImage("assets/foodgreen.jpg")
  foodprice=loadImage("assets/foodprice.png")
- vanprice=loadImage("assets/vanprice.png")
- serverprice=loadImage("assets/serverprice.png")
+ foodverbage=loadImage("assets/foodverbage.png")
 }
 
 var w=720
@@ -40,10 +43,12 @@ function draw() {
   
   if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59 && mouseIsPressed){
       image(foodgreen,windowWidth/2,windowHeight/2)
+      image(foodverbage,windowWidth*0.19,windowHeight*0.08)
       }
   
   if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56){
     image(servercolor,windowWidth/2,windowHeight/2)
+    
   }
   
   if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56){
@@ -52,6 +57,7 @@ function draw() {
   
   if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56 && mouseIsPressed){
       image(servergreen,windowWidth/2,windowHeight/2)
+      image(serververbage,windowWidth*0.19,windowHeight*0.08)
       }
       
       if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90){
@@ -64,5 +70,6 @@ function draw() {
   
   if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90 && mouseIsPressed){
       image(vangreen,windowWidth/2,windowHeight/2)
+      image(vanverbage,windowWidth*0.19,windowHeight*0.08)
       }
     }
