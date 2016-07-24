@@ -42,11 +42,11 @@ function draw() {
       image(foodgreen,windowWidth/2,windowHeight/2)
       }
   
-  if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
+  if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56){
     image(servercolor,windowWidth/2,windowHeight/2)
   }
   
-  if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
+  if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56){
     image(serverprice,mouseX,mouseY)
   }
   
@@ -54,11 +54,11 @@ function draw() {
       image(servergreen,windowWidth/2,windowHeight/2)
       }
       
-      if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
+      if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90){
     image(vancolor,windowWidth/2,windowHeight/2)
   }
   
-  if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
+  if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90){
     image(vanprice,mouseX,mouseY)
   }
   
