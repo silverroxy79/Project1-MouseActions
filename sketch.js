@@ -46,7 +46,7 @@ function draw() {
     image(vancolor,windowWidth/2,windowHeight/2)
   }
   
-  if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56 && mouseIsPressed){
+  if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90 && mouseIsPressed){
       image(vangreen,windowWidth/2,windowHeight/2)
       }
     }
