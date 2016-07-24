@@ -29,7 +29,6 @@ function draw() {
   background(0)
   imageMode("center")
   image(fullcolor,windowWidth/2,windowHeight/2)
-}
   
   if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
     image(foodcolor,windowWidth/2,windowHeight/2)
@@ -61,6 +60,7 @@ function draw() {
   
   if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
     image(vanprice,mouseX,mouseY)
+  }
   
   if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90 && mouseIsPressed){
       image(vangreen,windowWidth/2,windowHeight/2)
