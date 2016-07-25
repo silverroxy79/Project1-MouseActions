@@ -34,42 +34,53 @@ function draw() {
   image(fullcolor,windowWidth/2,windowHeight/2)
   
   if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
+    imageMode("center")
     image(foodcolor,windowWidth/2,windowHeight/2)
   }
   
   if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59){
+    imageMode("center")
     image(foodprice,mouseX,mouseY)
   }
   
   if(mouseX > windowWidth*0.44 && mouseY > windowHeight*0.51 && mouseX < windowWidth*0.47 && mouseY < windowHeight*0.59 && mouseIsPressed){
       image(foodgreen,windowWidth/2,windowHeight/2)
-      image(foodverbage,windowWidth*0.19,windowHeight*0.08)
+      imageMode("corner")
+      image(foodverbage,windowWidth*0.20,windowHeight*0.08)
       }
   
   if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56){
+    imageMode("center")
     image(servercolor,windowWidth/2,windowHeight/2)
     
   }
   
   if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56){
+    imageMode("center")
     image(serverprice,mouseX,mouseY)
   }
   
   if(mouseX > windowWidth*0.49 && mouseY > windowHeight*0.28 && mouseX < windowWidth*0.55 && mouseY < windowHeight*0.56 && mouseIsPressed){
+      imageMode("center")
       image(servergreen,windowWidth/2,windowHeight/2)
-      image(serververbage,windowWidth*0.19,windowHeight*0.08)
+      imageMode("corner")
+      image(serververbage,windowWidth*0.20,windowHeight*0.08)
       }
       
-      if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90){
+  if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90){
+    imageMode("center")
     image(vancolor,windowWidth/2,windowHeight/2)
   }
   
   if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90){
+    imageMode("center")
     image(vanprice,mouseX,mouseY)
   }
   
   if(mouseX > windowWidth*0.58 && mouseY > windowHeight*0.58 && mouseX < windowWidth*0.80 && mouseY < windowHeight*0.90 && mouseIsPressed){
+      imageMode("center")
       image(vangreen,windowWidth/2,windowHeight/2)
-      image(vanverbage,windowWidth*0.19,windowHeight*0.08)
+      imageMode("corner")
+      image(vanverbage,windowWidth*0.20,windowHeight*0.08)
       }
     }
